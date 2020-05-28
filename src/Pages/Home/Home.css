@@ -1,0 +1,32 @@
+.home-container {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    background: #dcdcdc;
+    max-width: 250px;
+    margin: auto;
+    margin-top: 20px;
+}
+.home-form {
+    padding: 15px;
+    align-items: center;
+}
+.home-input {
+    width: 150px;
+    padding: 15px;
+    border: 1px;
+    border-radius: 3px;
+    margin: 15px;
+}
+.home-button {
+    border: 1px;
+    border-radius: 3px;
+    width: 182px;
+    padding: 10px;
+    background: #005da6;
+    color: #fff;
+    font-size: 20px;
+    cursor: pointer;
+}
+
