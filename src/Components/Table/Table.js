@@ -3,7 +3,7 @@ import List from '../List/List'
 
 const Table = ({ Result }) => {
     return (
-        <table>
+        <table className="table-container">
             <tr>
                 <th>Data</th>
                 <th>Pegada</th>

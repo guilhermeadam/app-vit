@@ -1,32 +1,52 @@
 .home-container {
     display: flex;
-    justify-content: center;
+    justify-items: center;
+    align-items: center;
     text-align: center;
-    align-items: center;
-    background: #dcdcdc;
-    max-width: 250px;
+    flex-direction: column;
     margin: auto;
-    margin-top: 20px;
+    margin-top: 1%;
+    max-width: 300px;
+    background: #fff;
 }
-.home-form {
-    padding: 15px;
-    align-items: center;
+.title-form {
+    color:#fc9d01;
 }
-.home-input {
-    width: 150px;
-    padding: 15px;
-    border: 1px;
-    border-radius: 3px;
-    margin: 15px;
+.subtitle-form {
+    color: #2c4a6b;
 }
-.home-button {
-    border: 1px;
-    border-radius: 3px;
-    width: 182px;
-    padding: 10px;
-    background: #005da6;
+.matricula-form {
+    color: #fc9d01;
+    font-size: 23px;
+}
+.matricula-input {
+    padding: 12px;
+    border: 1px solid #fc9d01;
+    border-radius: 5px;
+}
+.ano-form {
+    color: #fc9d01;
+    font-size: 23px; 
+}
+.ano-input {
+    padding: 12px;
+    border: 1px solid #fc9d01;
+    border-radius: 5px;
+}
+.button-form {
+    padding: 8px;
+    width: 80%;
+    background: #2c4a6b;
     color: #fff;
     font-size: 20px;
+    border: 1px solid #2c4a6b;
+    border-radius: 5px;
     cursor: pointer;
 }
 
+hr {
+    height: 1px;
+    background: #dcdcdc;
+    color: #dcdcdc;
+    border: 1px solid #dcdcdc;
+}
